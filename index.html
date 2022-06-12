@@ -1,19 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Use minimum-scale=1 to enable GPU rasterization -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
+		/>
+		<meta name="Description" content="Interactive map of CivMC" />
 		<title>CivMC Map</title>
+		<meta property="og:type" content="object" />
+		<meta property="og:url" content="https://civmc-map.github.io/" />
+		<meta property="og:site_name" content="CivMC Map" />
+		<meta property="og:title" content="CivMC Map" />
+		<meta property="og:description" content="Interactive map of CivMC" />
+		<meta property="og:image" content="https://ccmap.github.io/logo256.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			href="https://ccmap.github.io/logo256.png"
+		/>
 	</head>
-	<body
-		style="
-			margin: 0;
-			width: 100vw;
-			height: 100vh;
-			background: no-repeat center url(https://i.redd.it/fnu7vw999i491.png);
-			background-size: contain;
-			background-color: black;
-		"
-	></body>
+
+	<body>
+		<div id="app-root">Loading...</div>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://ccmap.github.io/style.css"
+		/>
+		<script src="https://ccmap.github.io/js/bundle.js"></script>
+		<script type="text/javascript">
+			var config = {
+				defaultCollectionUrls: [
+					{
+						source: "https://civmc-map.github.io/data/settlements.json",
+						enabled_presentation: false,
+					},
+				],
+				initialState: {
+					collections: {
+						"603785eb-ee76-4b16-ab6e-d23ed98ea1fa": {
+							id: "603785eb-ee76-4b16-ab6e-d23ed98ea1fa",
+							name: "Territories 2022-06-12",
+							enabled_presentation: true,
+							features: {
+								"653785eb-ee76-4b16-ab6e-d23ed98ea1fa": {
+									id: "653785eb-ee76-4b16-ab6e-d23ed98ea1fa",
+									name: "TheJmqn Territorial Map 2022-06-12",
+									map_image: {
+										url: "https://preview.redd.it/rq54ufjzj2591.png?width=3253&format=png&auto=webp&s=834505374bf577a8138d63997e442972ce233903",
+										bounds: [
+											[-10884, -10842],
+											[10852, 10842],
+										],
+									},
+								},
+							},
+						},
+					},
+					mapConfig: {
+						borderApothem: 10000,
+						tilesRoot:
+							"data:image/gifbase64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7?",
+						basemaps: {
+							terrain: {
+								name: "Terrain",
+								id: "terrain",
+								bgColor: "#000",
+								isDefault: true,
+							},
+						},
+					},
+				},
+			};
+			window.civMapApi = CivMap.start(config);
+		</script>
+	</body>
 </html>
