@@ -39,54 +39,10 @@
 		<script type="text/javascript">
 			var config = {
 				defaultCollectionUrls: [
-					{
-						source: "https://civmc-map.github.io/data/settlements.json",
-						enabled_presentation: false,
-					},
+					{ source: "landmass-fier.json", enabled_presentation: true },
+					{ source: "territories-thejmqn.json", enabled_presentation: false },
 				],
 				initialState: {
-					collections: {
-						"603785eb-ee76-4b16-ab6e-d23ed98ea1f0": {
-							id: "603785eb-ee76-4b16-ab6e-d23ed98ea1f0",
-							name: "Landmass",
-							enabled_presentation: true,
-							presentations: {},
-							features: {
-								"653785eb-ee76-4b16-ab6e-d23ed98ea1f0": {
-									id: "653785eb-ee76-4b16-ab6e-d23ed98ea1f0",
-									collectionId: "603785eb-ee76-4b16-ab6e-d23ed98ea1f0",
-									name: "TheJmqn Landmass Map 2022-06-16",
-									map_image: {
-										url: "https://cdn.discordapp.com/attachments/798296368681713715/987165116585893918/Blank_CivMC_Map.png",
-										bounds: [
-											[-10884, -10842],
-											[10852, 10842],
-										],
-									},
-								},
-							},
-						},
-						"603785eb-ee76-4b16-ab6e-d23ed98ea1fa": {
-							id: "603785eb-ee76-4b16-ab6e-d23ed98ea1fa",
-							name: "Territories 2022-06-12",
-							enabled_presentation: false,
-							presentations: {},
-							features: {
-								"653785eb-ee76-4b16-ab6e-d23ed98ea1fa": {
-									id: "653785eb-ee76-4b16-ab6e-d23ed98ea1fa",
-									collectionId: "603785eb-ee76-4b16-ab6e-d23ed98ea1fa",
-									name: "TheJmqn Territorial Map 2022-06-17",
-									map_image: {
-										url: "https://cdn.discordapp.com/attachments/798296695900340244/987475102813798470/CivMCMap3Dark.png",
-										bounds: [
-											[-10884, -10842],
-											[10852, 10842],
-										],
-									},
-								},
-							},
-						},
-					},
 					mapConfig: {
 						borderApothem: 10000,
 						tilesRoot:

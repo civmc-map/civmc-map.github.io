@@ -1,0 +1,17 @@
+{
+	"id": "653785eb-aaaa-4b16-ab6e-d23ed98ea1f8",
+	"name": "Landmass Map 2022-06-18 (Fier)",
+	"features": [
+		{
+			"id": "653785eb-aaaa-4b16-ab6e-d23ed98ea1f0",
+			"name": "Landmass Map 2022-06-18 (Fier)",
+			"map_image": {
+				"url": "https://cdn.discordapp.com/attachments/798296889341640704/987897257946914886/p24fkgcmfg691.png",
+				"bounds": [
+					[-10112, -10112],
+					[10096, 10112]
+				]
+			}
+		}
+	]
+}
