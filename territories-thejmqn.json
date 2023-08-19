@@ -1,13 +1,13 @@
 {
 	"info": { "version": "3.0.0-beta3" },
 	"id": "653785eb-bbbb-4b16-ab6e-d23ed98ea1f8",
-	"name": "Territorial Map 2023-07-09 (TheJmqn)",
+	"name": "Territorial Map 2023-08-19 (TheJmqn)",
 	"features": [
 		{
 			"id": "653785eb-bbbb-4b96-1125-d24ed97ea1f0",
-			"name": "Territorial Map 2023-07-09 (TheJmqn)",
+			"name": "Territorial Map 2023-08-19 (TheJmqn)",
 			"map_image": {
-				"url": "https://cdn.discordapp.com/attachments/798296695900340244/1127584661388923001/civmcmap18transparent.png",
+				"url": "https://cdn.discordapp.com/attachments/798296695900340244/1142455090251309186/CivMCMap19Transparent.png",
 				"bounds": [
 					[-10832, -10834],
 					[10852, 10842]
