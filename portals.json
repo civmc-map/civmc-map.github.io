@@ -1,0 +1,161 @@
+{
+	"info": { "version": "3.0.0-beta3" },
+	"name": "Portals",
+	"presentations": [
+		{
+			"name": "Portals",
+			"style_base": {
+				"icon": "https://civmc-map.github.io/portal.png",
+				"icon_size": 16
+			},
+			"zoom_styles": {
+				"-6": { "label": null },
+				"-3": { "label": "$name" }
+			}
+		}
+	],
+	"features": [
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d01",
+			"name": "Sarlacc Pit\nPortal",
+			"alternative names": "Beratna",
+			"public": true,
+			"x": -4904,
+			"z": -2824
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d02",
+			"name": "Icenia\nPortal",
+			"alternative names": "Ilus",
+			"public": false,
+			"x": -2136,
+			"z": -7560
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d03",
+			"name": "Elysium\nPortal",
+			"alternative names": "Valyria",
+			"public": false,
+			"x": -6200,
+			"z": -4809
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d04",
+			"name": "Kallumbia\nPortal",
+			"public": true,
+			"x": -8,
+			"z": -4824
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d05",
+			"name": "Yoahtl\nPortal",
+			"alternative names": "Mia",
+			"public": false,
+			"x": 8024,
+			"z": 232
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d06",
+			"name": "CDM\nPortal",
+			"alternative names": "Cortesia",
+			"public": true,
+			"x": 5094,
+			"z": 2920
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d07",
+			"name": "Woj\nPortal",
+			"alternative names": "Estalia Mushroom",
+			"public": false,
+			"x": 2056,
+			"z": 1032
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d08",
+			"name": "Joja\nPortal",
+			"alternative names": "Auberon/Leibniz",
+			"public": true,
+			"x": 200,
+			"z": 5160
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d09",
+			"name": "Danzilona\nPortal",
+			"public": true,
+			"x": 5960,
+			"z": 4652
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d10",
+			"name": "Tortuga\nPortal",
+			"public": true,
+			"x": -4600,
+			"z": 2760
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d11",
+			"name": "Icarus\nPortal",
+			"public": true,
+			"x": -7720,
+			"z": -264
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d12",
+			"name": "Lambat\nPortal",
+			"public": true,
+			"x": 4156,
+			"z": -2459
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d13",
+			"name": "Titan\nPortal",
+			"alternative names": "Felona",
+			"public": true,
+			"x": 6570,
+			"z": -4400
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d14",
+			"name": "Owala\nPortal",
+			"alternative names": "Estalia Cactus",
+			"public": false,
+			"x": -1735,
+			"z": 1219
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d15",
+			"name": "Moloka\nPortal",
+			"alternative names": "Koyo",
+			"x": -230,
+			"z": -1592
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d16",
+			"name": "Nara\nPortal",
+			"alternative names": "Dalgon",
+			"x": 2375,
+			"z": 8375
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d17",
+			"name": "Aethia\nPortal",
+			"public": true,
+			"x": -2952,
+			"z": 8040
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d18",
+			"name": "Brunsvik\nPortal",
+			"alternative names": "Batavia/Otonabee",
+			"x": -7176,
+			"z": 4776
+		},
+		{
+			"id": "86de4686-2e4d-417a-a59a-8e9276804d19",
+			"name": "SPQR\nPortal",
+			"alternative names": "Lugdunum/Sol",
+			"x": 3017,
+			"z": -8039
+		}
+	]
+}
