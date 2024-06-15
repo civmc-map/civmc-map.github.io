@@ -124,8 +124,9 @@
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d15",
-			"name": "Moloka\nPortal",
-			"alternative names": "Koyo",
+			"name": "Eden\nPortal",
+			"alternative names": "Koyo/Moloka",
+			"public": true,
 			"x": -230,
 			"z": -1592
 		},
