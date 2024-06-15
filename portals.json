@@ -19,7 +19,7 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d01",
 			"name": "Sarlacc Pit\nPortal",
 			"alternative names": "Beratna",
-			"public": true,
+			"access": "public",
 			"x": -4904,
 			"z": -2824
 		},
@@ -27,7 +27,7 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d02",
 			"name": "Icenia\nPortal",
 			"alternative names": "Ilus",
-			"public": false,
+			"access": "private",
 			"x": -2136,
 			"z": -7560
 		},
@@ -35,14 +35,14 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d03",
 			"name": "Elysium\nPortal",
 			"alternative names": "Valyria",
-			"public": false,
+			"access": "private",
 			"x": -6200,
 			"z": -4809
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d04",
 			"name": "Kallumbia\nPortal",
-			"public": true,
+			"access": "public",
 			"x": -8,
 			"z": -4824
 		},
@@ -50,7 +50,7 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d05",
 			"name": "Yoahtl\nPortal",
 			"alternative names": "Mia",
-			"public": false,
+			"access": "private",
 			"x": 8024,
 			"z": 232
 		},
@@ -58,15 +58,15 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d06",
 			"name": "CDM\nPortal",
 			"alternative names": "Cortesia",
-			"public": true,
+			"access": "public",
 			"x": 4856,
 			"z": 2680
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d07",
-			"name": "Woj\nPortal",
-			"alternative names": "Estalia Mushroom",
-			"public": false,
+			"name": "Shroom\nPortal",
+			"alternative names": "Woj/Mushroom",
+			"access": "private",
 			"x": 2056,
 			"z": 1032
 		},
@@ -74,35 +74,35 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d08",
 			"name": "Joja\nPortal",
 			"alternative names": "Auberon/Leibniz",
-			"public": true,
+			"access": "public",
 			"x": 200,
 			"z": 5160
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d09",
 			"name": "Danzilona\nPortal",
-			"public": true,
+			"access": "public",
 			"x": 5960,
 			"z": 4652
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d10",
 			"name": "Moria\nPortal",
-			"public": true,
+			"access": "private",
 			"x": -4600,
 			"z": 2760
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d11",
 			"name": "Icarus\nPortal",
-			"public": true,
+			"access": "public",
 			"x": -7720,
 			"z": -264
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d12",
 			"name": "Lambat\nPortal",
-			"public": true,
+			"access": "public",
 			"x": 4156,
 			"z": -2459
 		},
@@ -110,15 +110,15 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d13",
 			"name": "Titan\nPortal",
 			"alternative names": "Felona",
-			"public": true,
+			"access": "public",
 			"x": 6570,
 			"z": -4400
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d14",
-			"name": "Owala\nPortal",
-			"alternative names": "Estalia Cactus",
-			"public": false,
+			"name": "Oasis\nPortal",
+			"alternative names": "Owala/Cactus",
+			"access": "private",
 			"x": -1735,
 			"z": 1219
 		},
@@ -126,7 +126,7 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d15",
 			"name": "Eden\nPortal",
 			"alternative names": "Koyo/Moloka",
-			"public": true,
+			"access": "public",
 			"x": -230,
 			"z": -1592
 		},
@@ -140,7 +140,7 @@
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d17",
 			"name": "Aethia\nPortal",
-			"public": true,
+			"access": "public",
 			"x": -2952,
 			"z": 8040
 		},
