@@ -20,6 +20,7 @@
 			"name": "Sarlacc Pit\nPortal",
 			"alternative names": "Beratna",
 			"access": "public",
+			"contact": "Icenia",
 			"x": -4904,
 			"z": -2824
 		},
@@ -28,6 +29,7 @@
 			"name": "Icenia\nPortal",
 			"alternative names": "Ilus",
 			"access": "private",
+			"contact": "Icenia",
 			"x": -2136,
 			"z": -7560
 		},
@@ -36,12 +38,14 @@
 			"name": "Elysium\nPortal",
 			"alternative names": "Valyria",
 			"access": "private",
+			"contact": "Icenia",
 			"x": -6200,
 			"z": -4809
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d04",
 			"name": "Kallumbia\nPortal",
+			"alternative names": "Zaros",
 			"access": "public",
 			"x": -8,
 			"z": -4824
@@ -51,6 +55,7 @@
 			"name": "Yoahtl\nPortal",
 			"alternative names": "Mia",
 			"access": "private",
+			"contact": "Yoahtl",
 			"x": 8024,
 			"z": 232
 		},
@@ -67,6 +72,7 @@
 			"name": "Shroom\nPortal",
 			"alternative names": "Woj/Mushroom",
 			"access": "private",
+			"contact": "Estalia",
 			"x": 2056,
 			"z": 1032
 		},
@@ -96,6 +102,7 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d11",
 			"name": "Icarus\nPortal",
 			"access": "public",
+			"contact": "Icarus",
 			"x": -7720,
 			"z": -264
 		},
@@ -103,14 +110,16 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d12",
 			"name": "Lambat\nPortal",
 			"access": "public",
+			"contact": "Lyrean Commonwealth",
 			"x": 4156,
 			"z": -2459
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d13",
-			"name": "Titan\nPortal",
-			"alternative names": "Felona",
+			"name": "Punk\nPortal",
+			"alternative names": "Felona, Titan",
 			"access": "public",
+			"contact": "Fempire (Jindosh)",
 			"x": 6570,
 			"z": -4400
 		},
@@ -119,6 +128,7 @@
 			"name": "Oasis\nPortal",
 			"alternative names": "Owala/Cactus",
 			"access": "private",
+			"contact": "Estalia",
 			"x": -1735,
 			"z": 1219
 		},
@@ -127,6 +137,7 @@
 			"name": "Eden\nPortal",
 			"alternative names": "Koyo/Moloka",
 			"access": "public",
+			"contact": "Estalia",
 			"x": -230,
 			"z": -1592
 		},
@@ -134,6 +145,7 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d16",
 			"name": "Nara\nPortal",
 			"alternative names": "Dalgon",
+			"contact": "Nara",
 			"x": 2375,
 			"z": 8375
 		},
@@ -141,6 +153,7 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d17",
 			"name": "Aethia\nPortal",
 			"access": "public",
+			"contact": "Imperial Federation",
 			"x": -2952,
 			"z": 8040
 		},
@@ -148,6 +161,7 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d18",
 			"name": "Brunsvik\nPortal",
 			"alternative names": "Batavia/Otonabee",
+			"contact": "Salerno",
 			"x": -7176,
 			"z": 4776
 		},
@@ -155,6 +169,7 @@
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d19",
 			"name": "SPQR\nPortal",
 			"alternative names": "Lugdunum/Sol",
+			"contact": "SPQR",
 			"x": 3017,
 			"z": -8039
 		}
