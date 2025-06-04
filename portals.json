@@ -111,8 +111,8 @@
 			"name": "Lambat\nPortal",
 			"access": "public",
 			"contact": "Lyrean Commonwealth",
-			"x": 4156,
-			"z": -2459
+			"x": 4152,
+			"z": -2456
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d13",
@@ -146,8 +146,8 @@
 			"name": "Nara\nPortal",
 			"alternative names": "Dalgon",
 			"contact": "Nara",
-			"x": 2375,
-			"z": 8375
+			"x": 2376,
+			"z": 8376
 		},
 		{
 			"id": "86de4686-2e4d-417a-a59a-8e9276804d17",
@@ -162,7 +162,7 @@
 			"name": "Brunsvik\nPortal",
 			"alternative names": "Batavia/Otonabee",
 			"contact": "Salerno",
-			"x": -7176,
+			"x": -7181,
 			"z": 4776
 		},
 		{
