@@ -1,13 +1,13 @@
 {
 	"info": { "version": "3.0.0-beta3" },
 	"id": "653785eb-bbbb-4b16-ab6e-d23ed98ea1f8",
-	"name": "Territorial Map 2025-04-27 (TheJmqn)",
+	"name": "Territorial Map 2025-06-08 (TheJmqn)",
 	"features": [
 		{
 			"id": "653785eb-bbbb-4b96-1125-d24ed97ea1f0",
-			"name": "Territorial Map 2025-04-27 (TheJmqn)",
+			"name": "Territorial Map 2025-06-08 (TheJmqn)",
 			"map_image": {
-				"url": "https://i.imgur.com/qu70gs8.png",
+				"url": "https://i.imgur.com/ibYjPCF.png",
 				"bounds": [
 					[-10832, -10834],
 					[10852, 10842]
