@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Logging in with Discord - CivMap</title>
+	</head>
+	<body
+		style="
+			margin: 0;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: black;
+			color: white;
+		"
+	>
+		<h3 id="msg">Logging into CivMap with Discord, please wait ...</h3>
+		<script>
+			;(async () => {
+				const params = new URLSearchParams(document.location.search)
+				const mapServer = params.get('mapServer')
+				const state = params.get('state')
+				const code = params.get('code')
+
+				const newUrl = document.location.href.split('?', 1)[0]
+				window.history.replaceState(null, '', newUrl)
+
+				const csrfLSKey = 'CivMap.discordLogin.CSRF.' + mapServer
+				const csrfValue = localStorage.getItem(csrfLSKey)
+				localStorage.removeItem(csrfLSKey)
+				if (!csrfValue) throw new Error('No CSRF Token for this map server')
+
+				const csrf = JSON.parse(csrfValue)
+				if (!csrf.token) throw new Error('Malformed CSRF Token: no token')
+				if (!isFinite(csrf.validUntil))
+					throw new Error('Malformed CSRF Token "validUntil"')
+
+				if (csrf.validUntil < Date.now()) throw new Error('CSRF Token too old')
+				if (state !== csrf.token) throw new Error('CSRF Token mismatch')
+
+				const redirect_uri =
+					window.location.origin + '/discord-login.html?mapServer=' + mapServer
+				const scope = 'identify'
+
+				const response = await fetch(`https://${mapServer}/discord-oauth2`, {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ code, redirect_uri, scope }),
+				})
+				const { jwt, error } = await response.json()
+
+				if (error) throw new Error(error)
+
+				const mapJwtLSKey = 'CivMap.discordLogin.JWT.' + mapServer
+				localStorage.setItem(mapJwtLSKey, jwt)
+
+				document.getElementById('msg').innerText =
+					'Login Success! You can close this tab now.'
+				window.close() // only works if window was opened by script
+			})().catch((err) => {
+				console.error(err)
+				document.getElementById('msg').innerText =
+					'Login Error: ' +
+					err +
+					' Close this tab and try again inside the map.'
+			})
+		</script>
+	</body>
+</html>

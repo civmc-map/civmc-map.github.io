@@ -1,78 +1,25 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<!-- Use minimum-scale=1 to enable GPU rasterization -->
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
-		/>
-		<meta name="Description" content="Interactive map of CivMC" />
-		<title>CivMC Map</title>
-		<meta property="og:type" content="object" />
-		<meta property="og:url" content="https://civmc-map.github.io/" />
-		<meta property="og:site_name" content="CivMC Map" />
-		<meta property="og:title" content="CivMC Map" />
-		<meta property="og:description" content="Interactive map of CivMC" />
-		<meta property="og:image" content="logo256.png" />
-		<link rel="icon" type="image/png" href="logo256.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="/icon.png" type="image/png" />
+		<title>Civ Map</title>
+		<script type="module" crossorigin src="/assets/index-Bz_Mcwxz.js"></script>
+		<link rel="stylesheet" crossorigin href="/assets/index-Cbybz7VU.css">
 	</head>
-
-	<body>
-		<div id="app-root">Loading...</div>
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css"
-		/>
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="https://ccmap.github.io/style.css"
-		/>
-		<script src="https://ccmap.github.io/js/bundle.js"></script>
-		<script type="text/javascript">
-			var config = {
-				defaultCollectionUrls: [
-					{ source: "territories-thejmqn.json", enabled_presentation: false },
-					{ source: "portals.json", enabled_presentation: false },
-					{ source: "https://raw.githubusercontent.com/Zalvvv/OneDest/main/OneDestStations.json", enabled_presentation: false },
-					{ source: "https://raw.githubusercontent.com/Zalvvv/OneDest/main/OneDestLines.json", enabled_presentation: false },
-                                        { source: "https://raw.githubusercontent.com/VilyanZ/Civmc-Railmap/main/Rail%20Map%20(VilyanZ).json", enabled_presentation: false },
-					{ source: "https://raw.githubusercontent.com/Thejmqn/CivMCSettlements/main/CivMCSettlements.json", enabled_presentation: false },
-				],
-				initialState: {
-					mapConfig: {
-						borderApothem: 10000,
-						tilesRoot: "https://civmc-map.duckdns.org/tiles/",
-						basemaps: {
-							terrain: {
-								name: "Terrain (Sdorr, Bronnakus, Fier)",
-								id: "terrain",
-								bgColor: "#000",
-								isDefault: true,
-							},
-							sotw: {
-								name: "Start of the World (Fier)",
-								id: "sotw",
-								bgColor: "#000",
-							},
-                                                        biome: {
-                                                                name: "Biome (Paddington)",
-                                                                id: "biome",
-                                                                bgColor: "#888",
-                                                        },
-							topo: {
-								name: "Topographic (Paddington)",
-								id: "topo",
-								bgColor: "#888",
-							},
-						},
-					},
-				},
-			};
-			window.civMapApi = CivMap.start(config);
-		</script>
+	<body style="margin: 0; background-color: black; color: white">
+		<div id="root">
+			<div
+				style="
+					height: 100vh;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				"
+			>
+				Loading ...
+			</div>
+		</div>
 	</body>
 </html>
