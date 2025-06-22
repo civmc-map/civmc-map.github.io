@@ -2,9 +2,40 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Use minimum-scale=1 to enable GPU rasterization -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
+		/>
+		<title>CivMC Map</title>
+		<meta name="Description" content="Interactive map of CivMC" />
+		<meta property="og:type" content="object" />
+		<meta property="og:url" content="https://civmc-map.github.io/" />
+		<meta property="og:site_name" content="CivMC Map" />
+		<meta property="og:title" content="CivMC Map" />
+		<meta property="og:description" content="Interactive map of CivMC" />
+		<meta property="og:image" content="/icon.png" />
 		<link rel="shortcut icon" href="/icon.png" type="image/png" />
-		<title>Civ Map</title>
+		<link
+			rel="preload"
+			as="image"
+			href="https://civmc-map.duckdns.org/tiles/terrain/z-5/0,0.png"
+		/>
+		<link
+			rel="preload"
+			as="image"
+			href="https://civmc-map.duckdns.org/tiles/terrain/z-5/0,-1.png"
+		/>
+		<link
+			rel="preload"
+			as="image"
+			href="https://civmc-map.duckdns.org/tiles/terrain/z-5/-1,0.png"
+		/>
+		<link
+			rel="preload"
+			as="image"
+			href="https://civmc-map.duckdns.org/tiles/terrain/z-5/-1,-1.png"
+		/>
 		<script type="module" crossorigin src="/assets/index-5gSWPch3.js"></script>
 		<link rel="stylesheet" crossorigin href="/assets/index-Brvbqg_N.css">
 		<script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
