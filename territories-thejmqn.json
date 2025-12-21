@@ -1,13 +1,13 @@
 {
 	"info": { "version": "3.0.0-beta3" },
 	"id": "653785eb-bbbb-4b16-ab6e-d23ed98ea1f8",
-	"name": "Territorial Map 2025-11-03 (TheJmqn)",
+	"name": "Territorial Map 2025-12-21 (TheJmqn)",
 	"features": [
 		{
 			"id": "653785eb-bbbb-4b96-1125-d24ed97ea1f0",
-			"name": "Territorial Map 2025-11-03 (TheJmqn)",
+			"name": "Territorial Map 2025-12-21 (TheJmqn)",
 			"map_image": {
-				"url": "https://civmc-map.github.io/CivMCMap41Transparent.png",
+				"url": "https://civmc-map.github.io/CivMCMap431Transparent.webp",
 				"bounds": [
 					[-10832, -10834],
 					[10852, 10842]
