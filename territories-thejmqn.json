@@ -1,11 +1,11 @@
 {
 	"info": { "version": "3.0.0-beta3" },
 	"id": "653785eb-bbbb-4b16-ab6e-d23ed98ea1f8",
-	"name": "Territorial Map January 2026 (TheJmqn)",
+	"name": "Territorial Map March 2026 (TheJmqn)",
 	"features": [
 		{
 			"id": "653785eb-bbbb-4b96-1125-d24ed97ea1f0",
-			"name": "Territorial Map January 2026 (TheJmqn)",
+			"name": "Territorial Map March 2026 (TheJmqn)",
 			"map_image": {
 				"url": "https://civmc-map.github.io/CivMCMap44Transparent.png",
 				"bounds": [
